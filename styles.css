@@ -24,11 +24,17 @@ body {
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50px;
+    width: 100%;
+    max-width: 120px; /* 최대 너비 설정 */
+    height: auto;
+    border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+        max-width: 100px; /* 모바일에서의 크기 조정 */
+    }
 }
 
 .profile h2 {
