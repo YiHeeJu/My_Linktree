@@ -1,29 +1,29 @@
-# 멀티 링크 페이지 개발
+# Multi-Link Page Development
 
-이 프로젝트는 깃허브를 활용하여 간편한 멀티 링크 페이지를 개발하는 방법을 다룹니다. 이 페이지는 개인의 여러 중요한 링크들을 한 곳에 모아, 사용자들이 쉽게 접근할 수 있도록 합니다. 서버를 별도로 운영할 필요 없이, GitHub Pages를 통해 손쉽게 배포할 수 있습니다.
+This project covers how to develop a simple multi-link page using GitHub. This page will gather all your important links in one place, allowing users easy access. There's no need to run a separate server as it can be easily deployed using GitHub Pages.
 
-## 주요 링크
+## Key Links
 
-- [블로그 계정](https://yiheeju.tistory.com/1) - 더 자세한 내용을 보실 수 있습니다.
+- [Blog Account](https://yiheeju.tistory.com/1) - For more detailed information.
+- 
+## Project Description
 
-## 프로젝트 설명
+This multi-link page project includes the following features:
 
-이 멀티 링크 페이지 프로젝트는 다음과 같은 기능을 포함합니다:
+- **Profile Picture and Basic Information Display**: Display the user's profile picture and basic contact information.
+- **Link Buttons**: Provide buttons for LinkedIn, GitHub, personal blog, etc., which will navigate to the respective pages upon clicking.
+- **Responsive Design**: A responsive design suitable for both desktop and mobile environments.
+- **Deployment via GitHub Pages**: Deploy the project easily using GitHub Pages, making it accessible from anywhere in the world.
 
-- **프로필 사진 및 기본 정보 표시**: 사용자의 프로필 사진과 기본 연락처 정보를 표시합니다.
-- **링크 버튼 제공**: 링크드인, 깃허브, 개인 블로그 등의 링크를 버튼으로 제공하여 클릭 시 해당 페이지로 이동합니다.
-- **반응형 디자인**: 데스크톱과 모바일 환경 모두에 적합한 반응형 디자인을 사용합니다.
-- **GitHub Pages를 통한 배포**: GitHub Pages를 활용하여 프로젝트를 손쉽게 배포하고, 전 세계 어디서나 접근할 수 있습니다.
-
-## 개발 환경
+## Development Environment
 
 - **OS**: Windows
 - **Editor**: Visual Studio Code
 - **WSL**: Ubuntu 22.04
-- **Git**: 버전 관리 및 배포
+- **Git**: Version control and deployment
 
-## 사용 방법
+## How to Use
 
-1. 리포지토리를 클론합니다:
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/your-repository.git
